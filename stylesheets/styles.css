@@ -1,0 +1,128 @@
+body {
+	background-image: url("images/CharlesPetersonmebending.jpg");
+	background-color: #000000;
+	margin: 1em auto;
+	font-size: 10px;
+	padding: 1em;
+	text-align: center;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	min-width: 1000px;
+	background-repeat: no-repeat; 
+}
+
+#image {
+	 
+	height:300%;
+z-index: -1;
+position: absolute;
+top: 0;
+left: -250px;
+}
+
+
+#grid {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	text-align:center;
+}
+
+
+	div.content {
+		margin:0 auto;
+		width: 900px;
+
+}
+
+h1 {
+	font-family: "Special Elite", Astigmatic;
+	color: #FFFFFF;
+	font-size: 3em;
+
+}
+
+h2 {
+	font-family: "Special Elite", Astigmatic;
+	color: #FFFFFF;
+	font-size: 3em;
+	
+}
+
+p, ul {
+	font-family: "Times New Roman", serif;
+	color: #FFFFFF;
+	max-width: 30em;
+	width: 100%;
+	text-align: center;
+	margin: 1em auto 1em auto;
+	font-size: 3em;
+	line-height: 1.3;
+}
+
+#map, #statement{
+	text-align: center;
+}
+
+
+
+img.jdtlogo .center {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 400px;
+	margin: 2em auto;
+}
+
+nav a {
+	background:black;
+	font-family: "Special Elite", Astigmatic;
+	color: #c0c0c0;
+	font-size: 3em;
+	display: inline-block; 
+	margin-right: 15px;
+	margin-left: 15px;
+
+
+}
+
+nav {
+	background:black;
+	width: 50%;
+	margin: 0 auto; 
+
+}
+
+#profilepic{
+	margin-left: 100px;
+	display: block;
+}
+
+#title{
+	margin-top: 300px;
+	margin-right: 10px;
+	display: flex;
+}
+
+#homebackground{
+	z-index: -10; 
+	opacity: .5;
+	position: fixed;
+	left: 25%;
+	width: 50%;
+	top: 20%;
+
+}
+
+
+/*.hide { 
+	background-color: black;
+}*/
+
+.curtain { 
+	background-color: black;
+	width:100%;
+}
+
+
+.logo:hover {
+box-shadow: 0 5px 15px #FFFFFF;
+}
