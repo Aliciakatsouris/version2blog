@@ -12,7 +12,7 @@ body {
 
 #image {
 	 
-	height:300%;
+height:320%;
 z-index: -1;
 position: absolute;
 top: 0;
@@ -124,5 +124,23 @@ nav {
 
 
 .logo:hover {
-box-shadow: 0 5px 15px #FFFFFF;
+	-webkit-filter: drop-shadow(5px 5px 5px #FFFFFF);
+    filter: drop-shadow(5px 5px 5px #FFFFFF);
+
+/*drop-shadow: 0 5px 15px #FFFFFF;*/
+
+
 }
+
+
+.textleft p
+{ text-align: left;
+background-color: black;
+padding: 25px;
+}
+
+#pinkbox 
+{
+background-color: pink;
+}
+
