@@ -33,6 +33,14 @@ left: -250px;
 
 }
 
+#ABOUT {
+	font-size: 25px;
+	text-align: center;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+}
+
+
 h1 {
 	font-family: "Special Elite", Astigmatic;
 	color: #FFFFFF;
@@ -97,18 +105,19 @@ nav {
 }
 
 #title{
-	margin-top: 300px;
-	margin-right: 10px;
+	margin-top: 0px;
+	margin-left: 130px;
 	display: flex;
+	width: 100%
 }
 
-#homebackground{
+#bio{
 	z-index: -10; 
 	opacity: .5;
 	position: fixed;
-	left: 25%;
+	left: 40%;
 	width: 50%;
-	top: 20%;
+	top: 40%;
 
 }
 
